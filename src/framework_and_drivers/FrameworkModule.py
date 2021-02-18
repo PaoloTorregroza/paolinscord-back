@@ -1,9 +1,9 @@
 from flask_socketio import SocketIO
 from flask import Flask
 from settings import SECRET_KEY
-from src.framework_and_drivers.lib.socketio_config import SocketioConfig
-from src.framework_and_drivers.lib.flask_routes import api_blueprint
-from src.framework_and_drivers.lib.mongo_config import MongoDatabase
+from src.framework_and_drivers.libs.socketio_config import SocketioConfig
+from src.framework_and_drivers.libs.flask_routes import api_blueprint
+from src.framework_and_drivers.libs.mongo_config import MongoDatabase
 
 
 class FrameworkModule:
